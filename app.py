@@ -287,7 +287,6 @@ def render_image_editor(uploaded_file, unique_id, g_params):
                 st.button(
                     "🔄 回転・反転をリセット", key=f"reset_transform_btn_{f_id}",
                     on_click=_do_reset_transform,
-                    use_container_width=True,
                 )
 
             st.markdown("---")
