@@ -483,7 +483,7 @@ def main():
     init_session_state()
 
     st.title("📸 Exif Framer")
-    st.markdown("アップロードした写真に白枠とExif情報付きのバナーを追加します。複数枚の一括処理も可能です。")
+    st.markdown("アップロードした写真にフレームとExif情報付きのバナーを追加します。")
     st.info("サイドバーで各種設定ができます。サイドバーが表示されていない場合は、画面左上の「≫」をクリックしてください。")
 
     g_params = build_sidebar()
