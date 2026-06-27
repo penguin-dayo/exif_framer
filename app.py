@@ -443,7 +443,7 @@ def build_sidebar():
         """)
 
     sb.markdown("---")
-    sb.header("👁️ 表示項目 (Display Items)")
+    sb.header("🗒️ 表示項目 (Display Items)")
     sb.caption("チェックを外すと、全ての画像でその項目が印字されなくなります。")
     show_camera = sb.checkbox("カメラモデル",       value=True)
     show_lens   = sb.checkbox("レンズモデル",       value=True)
