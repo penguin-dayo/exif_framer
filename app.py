@@ -259,6 +259,7 @@ def render_image_editor(uploaded_file, unique_id, g_params):
                 file_name=_out_filename,
                 mime=_out_mime,
                 key=f"dl_btn_{f_id}",
+                on_click="ignore",
             )
 
         with st.expander("🛠️ 詳細設定・メタデータ (Details & Metadata)", expanded=False):
