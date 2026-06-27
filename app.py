@@ -178,7 +178,6 @@ def render_image_editor(uploaded_file, unique_id, g_params):
     )
 
     # --- セッション初期化（初回のみ） ---
-    st.write(f"is_exif_initialized(f_id): {is_exif_initialized(f_id)}")
     if not is_exif_initialized(f_id):
         initialize_exif_for_file(f_id, exif_defaults)
 
